@@ -3,7 +3,7 @@ include ../config.mk
 
 FILTERCFGFILES = oaiarXiv_bibfilter_actions.cfg oaicds_bibfilter_config.json
 FILTERCFGDIR = $(ETCDIR)/bibharvest/
-FILTERBINFILES = bibfilter_oaiarXiv2inspire.py bibfilter_oaicds2inspire.py bibfilter_oaizenodo2inspire.py bibfilter_oaipos2inspire.py
+FILTERBINFILES = bibfilter_*.py
 FILTERBINDIR = $(BINDIR)
 # main targets:
 
